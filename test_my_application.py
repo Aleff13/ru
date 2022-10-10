@@ -24,7 +24,7 @@ locations = [
 def test_menu(page: Page):
     i = 0;
 
-    page.goto("https://ru.ufsc.br/ru/")
+    page.goto(ruUrl)
 
     for day in locations:
         page.locator(f'xpath={day}').screenshot(path=f"{i}.png")
