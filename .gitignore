@@ -1,0 +1,5 @@
+.env
+*.png
+*.txt
+/__pycache
+/.pytest_cache
